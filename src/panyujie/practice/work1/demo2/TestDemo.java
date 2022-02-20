@@ -9,6 +9,9 @@ public class TestDemo{
 		 Triangle triangle=new Triangle(1.0, 2.0);
 		 Ladder ladder=new Ladder(3.0, 2.0,3.0);
 
+
+
+
 	     Geometry[] g=new Geometry[]{circle,triangle,ladder};
 
 		Geometry geometry=new Circle(2);
