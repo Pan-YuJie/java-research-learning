@@ -22,7 +22,6 @@ public class Test {
         Shape[] shape=new Shape[]{triangle,rectangle,circle,ladder};
 
     }
-
 }
 
 class Shape{
