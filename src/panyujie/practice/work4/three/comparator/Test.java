@@ -4,13 +4,7 @@ import panyujie.practice.work4.three.comparator.Student;
 
 import java.util.Arrays;
 
-/**
- * Created with IntelliJ IDEA.
- * Description:
- * User: Submerge
- * Date: 2022-03-04
- * Time: 10:10
- */
+
 public class Test {
     public static void main(String[] args) {
         Student[] arr=new Student[4];
