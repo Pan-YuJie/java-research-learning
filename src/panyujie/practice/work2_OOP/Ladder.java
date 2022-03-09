@@ -1,7 +1,7 @@
 package panyujie.practice.work2_OOP;
 
 public class Ladder extends Geometry{
-    private double above,bottom,height; 
+    private double above,bottom,height;
     public  Ladder(){ 
     }
     public Ladder(double above,double bottom,double height){
@@ -30,7 +30,7 @@ public class Ladder extends Geometry{
     public double getArea(){
        return (this.above+bottom)*height/2.0;
     }  
-      public String toString(){  //��ʾ���������   
+      public String toString(){
     	return  String.format("Ladder: above=%f,bottom=%f,height=%f\n",above,bottom,height);
     } 
 }
