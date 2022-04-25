@@ -1,6 +1,7 @@
 package panyujie.practice.work5.GenericSingleList;
 
 public class GenericSingleList<T> {
+
     static class singleNode<T>{
         public T val;
         public singleNode<T> next;
@@ -119,10 +120,7 @@ public class GenericSingleList<T> {
     }
     //判空
     public boolean isEmpty() {
-        if (this.head == null) {
-            return true;
-        }
-        return false;
+        return this.head == null;
     }
     //返回大小
     public int size() {

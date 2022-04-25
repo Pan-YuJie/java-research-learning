@@ -40,7 +40,6 @@ public class MyArrayList {
 
     public void add(int index, String str) {
         if (index > size || index < 0) {
-            System.out.println("下标不正确！！！");
             return;
         }
         if (size >= capcity) {
@@ -55,7 +54,6 @@ public class MyArrayList {
 
     public String remove(int index) {
         if (index > size || index < 0) {
-            System.out.println("下标不正确！！！");
             return null;
         }
         String result = array[index];

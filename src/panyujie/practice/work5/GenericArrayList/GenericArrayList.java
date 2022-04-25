@@ -109,10 +109,7 @@ public class GenericArrayList<T> {
 
     //判空
     public boolean isEmpty() {
-        if (this.usedsize == 0) {
-            return true;
-        }
-        return false;
+        return this.usedsize == 0;
     }
     //判满
     public boolean isFull() {
