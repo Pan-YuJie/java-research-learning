@@ -22,9 +22,6 @@ public class Test {
         arrayList.remove(2);
         arrayList.print();
 
-
-
-
         arrayList.add(0,1);
         arrayList.add(2,3);
         arrayList.print();
