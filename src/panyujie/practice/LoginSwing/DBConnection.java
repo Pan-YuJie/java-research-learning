@@ -1,4 +1,4 @@
-package panyujie.practice.Swing;
+package panyujie.practice.LoginSwing;
 import java.io.FileInputStream;
 import java.sql.*;
 import java.util.Properties;

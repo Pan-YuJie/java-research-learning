@@ -1,4 +1,4 @@
-package panyujie.practice.Swing;
+package panyujie.practice.LoginSwing;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
